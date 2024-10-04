@@ -1,0 +1,49 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Matt space</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2024-10-04T18:59:47+00:00</updated>
+  <author>
+    <name>your_full_name</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
+  <rights> © 2024 your_full_name </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>The differences between policies</title>
+    <link href="http://localhost:4000/posts/differences/" rel="alternate" type="text/html" title="The differences between policies" />
+    <published>2024-10-04T12:21:12+00:00</published>
+  
+    <updated>2024-10-04T12:21:12+00:00</updated>
+  
+    <id>http://localhost:4000/posts/differences/</id>
+    <content src="http://localhost:4000/posts/differences/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="machine_learning" />
+    
+    <category term="reinforcement_learning" />
+    
+  
+
+  <summary>Short summary of the post</summary>
+
+  </entry>
+
+</feed>
+
+
