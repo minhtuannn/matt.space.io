@@ -3,7 +3,7 @@ title: The differences between policies
 date: 2024-10-04 12:21:12 # YYYY-MM-DD HH:MM:SS +/-TTTT
 categories: [machine_learning, reinforcement_learning] # [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [cs] # [TAG]     # TAG names should always be lowercase
-description: Short summary of the post
+description: Why do we need concern about which is the best policy of these task?
 
 ---
 
