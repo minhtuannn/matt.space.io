@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Matt space</title>
   <subtitle>The Giver</subtitle>
-  <updated>2024-10-05T14:16:10+07:00</updated>
+  <updated>2024-10-06T00:41:08+07:00</updated>
   <author>
     <name>Minh Tuan - Matt</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Definition of Recommendation System</title>
+    <link href="http://localhost:4000/posts/definition-of-recommendation-system/" rel="alternate" type="text/html" title="Definition of Recommendation System" />
+    <published>2024-10-05T19:21:12+07:00</published>
+  
+    <updated>2024-10-05T19:21:12+07:00</updated>
+  
+    <id>http://localhost:4000/posts/definition-of-recommendation-system/</id>
+    <content src="http://localhost:4000/posts/definition-of-recommendation-system/" />
+    <author>
+      <name>Minh Tuan - Matt</name>
+    </author>
+
+  
+    
+    <category term="machine_learning" />
+    
+    <category term="recommendation_system" />
+    
+  
+
+  <summary>This post explains what recommendation systems are, their key goals and challenges, and how they help personalize user experiences and drive business growth.</summary>
+
+  </entry>
 
   
   <entry>

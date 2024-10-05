@@ -30,24 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.4" />
-<meta property="og:title" content="The differences between policies" />
+<meta property="og:title" content="Definition of Recommendation System" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Why do we need concern about which is the best policy of these task?" />
-<meta property="og:description" content="Why do we need concern about which is the best policy of these task?" />
-<link rel="canonical" href="http://localhost:4000/posts/differences-among-policies/" />
-<meta property="og:url" content="http://localhost:4000/posts/differences-among-policies/" />
+<meta name="description" content="This post explains what recommendation systems are, their key goals and challenges, and how they help personalize user experiences and drive business growth." />
+<meta property="og:description" content="This post explains what recommendation systems are, their key goals and challenges, and how they help personalize user experiences and drive business growth." />
+<link rel="canonical" href="http://localhost:4000/posts/definition-of-recommendation-system/" />
+<meta property="og:url" content="http://localhost:4000/posts/definition-of-recommendation-system/" />
 <meta property="og:site_name" content="Matt space" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-04T19:21:12+07:00" />
+<meta property="article:published_time" content="2024-10-05T19:21:12+07:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="The differences between policies" />
+<meta property="twitter:title" content="Definition of Recommendation System" />
 <meta name="twitter:site" content="@" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-04T19:21:12+07:00","datePublished":"2024-10-04T19:21:12+07:00","description":"Why do we need concern about which is the best policy of these task?","headline":"The differences between policies","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/differences-among-policies/"},"url":"http://localhost:4000/posts/differences-among-policies/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-05T19:21:12+07:00","datePublished":"2024-10-05T19:21:12+07:00","description":"This post explains what recommendation systems are, their key goals and challenges, and how they help personalize user experiences and drive business growth.","headline":"Definition of Recommendation System","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/definition-of-recommendation-system/"},"url":"http://localhost:4000/posts/definition-of-recommendation-system/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>The differences between policies | Matt space
+  <title>Definition of Recommendation System | Matt space
   </title>
 
   <!--
@@ -432,7 +432,7 @@
         
           
             
-              <span>The differences between policies</span>
+              <span>Definition of Recommendation System</span>
             
 
           
@@ -515,6 +515,71 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -595,9 +660,9 @@
 
 <article class="px-1">
   <header>
-    <h1 data-toc-skip>The differences between policies</h1>
+    <h1 data-toc-skip>Definition of Recommendation System</h1>
     
-      <p class="post-desc fw-light mb-4">Why do we need concern about which is the best policy of these task?</p>
+      <p class="post-desc fw-light mb-4">This post explains what recommendation systems are, their key goals and challenges, and how they help personalize user experiences and drive business growth.</p>
     
 
     <div class="post-meta text-muted">
@@ -614,13 +679,13 @@
 
 <time
   
-  data-ts="1728044472"
+  data-ts="1728130872"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Oct  4, 2024
+  Oct  5, 2024
 </time>
 
       </span>
@@ -669,9 +734,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="332 words"
+  title="1197 words"
 >
-  <em>1 min</em> read</span>
+  <em>6 min</em> read</span>
 
         </div>
       </div>
@@ -679,76 +744,125 @@
   </header>
 
   <div class="content">
-    <p>Based on the paper, the difference between <strong>off-policy actor-critic</strong> and <strong>stochastic actor-critic</strong> methods can be summarized as follows:</p>
+    <h3 id="understanding-recommendation-systems-challenges-and-benefits"><span class="me-2">Understanding Recommendation Systems: Challenges and Benefits</span><a href="#understanding-recommendation-systems-challenges-and-benefits" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
-<h3 id="1-off-policy-actor-critic-dpg"><span class="me-2">1. <strong>Off-Policy Actor-Critic (DPG)</strong>:</span><a href="#1-off-policy-actor-critic-dpg" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<ul>
-  <li><strong>Behavior Policy</strong>: Uses a stochastic policy for exploration (e.g., noise added to actions).</li>
-  <li><strong>Target Policy</strong>: Learns a <strong>deterministic policy</strong> for exploitation.</li>
-  <li><strong>Learning</strong>: Learns off-policy, meaning it learns the deterministic target policy using data collected from a different exploratory behavior policy.</li>
-</ul>
+<p>Creating a recommendation system is a complex task that requires a significant amount of time and effort. Despite the hard work put into predicting user preferences, building functions, and experimenting with various approaches, the results may not always meet expectations. After working on several projects over the years, I’ve come to realize that recommendation systems are made up of a series of interconnected problems, each one presenting unique challenges. In this post, I’ll delve deeper into these challenges and provide a clearer understanding of recommendation systems.</p>
 
-<h3 id="2-stochastic-actor-critic"><span class="me-2">2. <strong>Stochastic Actor-Critic</strong>:</span><a href="#2-stochastic-actor-critic" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<ul>
-  <li><strong>Policy</strong>: Uses a <strong>stochastic policy</strong> for both exploration and exploitation.</li>
-  <li><strong>Learning</strong>: Typically on-policy, meaning the same stochastic policy is used for both generating actions and learning the policy.</li>
-</ul>
+<h2 id="what-is-a-recommendation-system"><span class="me-2">What is a Recommendation System?</span><a href="#what-is-a-recommendation-system" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<h3 id="key-differences"><span class="me-2">Key Differences:</span><a href="#key-differences" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<ul>
-  <li><strong>Off-policy</strong> decouples exploration and exploitation, while <strong>stochastic</strong> methods rely on a single stochastic policy for both.</li>
-  <li>DPG is more sample-efficient in high-dimensional action spaces due to the deterministic target policy.</li>
-</ul>
+<p>If you search “What is a recommendation system?” online, you’ll find numerous explanations—from Wikipedia entries to blog posts and research articles. In essence, Recommender Systems (RSs) are software tools and techniques designed to suggest items that are most likely to be of interest to a specific user. These suggestions can help users in various decision-making processes, such as choosing what products to buy, what music to listen to, or which news articles to read.</p>
 
-<h3 id="differences-between-off-policy-actor-critic-dpg-vs-stochastic-policy-gradient-theorems"><span class="me-2">Differences Between Off-Policy Actor-Critic (DPG) vs. Stochastic Policy Gradient Theorems:</span><a href="#differences-between-off-policy-actor-critic-dpg-vs-stochastic-policy-gradient-theorems" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>The term “item” broadly refers to anything that the system recommends, whether it’s a physical product, digital content, or service. A recommendation system is usually tailored to focus on a particular type of item (e.g., books, movies, or news articles), and its design, user interface, and core recommendation techniques are customized to effectively provide suggestions for that specific type of item.</p>
+
+<h3 id="why-are-recommendation-systems-important"><span class="me-2">Why Are Recommendation Systems Important?</span><a href="#why-are-recommendation-systems-important" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>With the growth of e-commerce and content platforms, users are now faced with an overwhelming number of choices. The sheer volume and variety of available options make it difficult for users to find items that suit their preferences. This phenomenon, known as “choice overload,” often results in decision fatigue and poor choices. Instead of benefiting users, the excess of options can lower their satisfaction and make it hard for them to navigate the platform.</p>
+
+<p>This is where recommendation systems come in. By analyzing user behavior and preferences, these systems filter through the vast array of available options to present users with a curated set of suggestions. The goal is to simplify the decision-making process and help users discover items they might not have found otherwise.</p>
+
+<h2 id="goals-of-recommendation-systems"><span class="me-2">Goals of Recommendation Systems</span><a href="#goals-of-recommendation-systems" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Before diving into the goals, it’s essential to understand the two main ways the recommendation problem is typically framed:</p>
 
 <ol>
-  <li><strong>Action Selection</strong>:
-    <ul>
-      <li><strong>Off-Policy Actor-Critic (DPG)</strong>: Uses a deterministic target policy ( \mu_\theta(s) ) and learns off-policy using exploratory data from a different stochastic behavior policy.</li>
-      <li>
-        <div class="table-wrapper"><table>
-          <tbody>
-            <tr>
-              <td><strong>Stochastic Policy Gradient</strong>: Uses a stochastic policy ( \pi_\theta(a</td>
-              <td>s) ) for both exploration and exploitation.</td>
-            </tr>
-          </tbody>
-        </table></div>
-      </li>
-    </ul>
+  <li>
+    <p><strong>Prediction Problem</strong>: This approach involves predicting a user’s preference for a given item. Training data is used to predict missing values in an incomplete matrix of user-item interactions. This is often referred to as a “matrix completion” problem because the aim is to predict unknown values based on observed ones.</p>
   </li>
-  <li><strong>Policy Gradient</strong>:
-    <ul>
-      <li><strong>DPG</strong>: Policy gradient is computed as ( \nabla_\theta J(\mu_\theta) = \mathbb{E}<em>{s \sim \rho^\mu} [\nabla</em>\theta \mu_\theta(s) \nabla_a Q^\mu(s, a)] ), integrating only over the state space.</li>
-      <li>
-        <div class="table-wrapper"><table>
-          <tbody>
-            <tr>
-              <td><strong>Stochastic Policy Gradient</strong>: Includes integration over both state and action spaces ( \nabla_\theta J(\pi_\theta) = \mathbb{E}<em>{s \sim \rho^\pi, a \sim \pi</em>\theta} [\nabla_\theta \log \pi_\theta(a</td>
-              <td>s) Q^\pi(s, a)] ).</td>
-            </tr>
-          </tbody>
-        </table></div>
-      </li>
-    </ul>
-  </li>
-  <li><strong>Sample Efficiency</strong>:
-    <ul>
-      <li><strong>DPG</strong>: More sample-efficient, especially in high-dimensional action spaces, as it avoids integrating over the action space.</li>
-      <li><strong>Stochastic Policy Gradient</strong>: Typically requires more samples because the gradient involves integrating over both states and actions.</li>
-    </ul>
-  </li>
-  <li><strong>Exploration vs. Exploitation</strong>:
-    <ul>
-      <li><strong>DPG</strong>: Separates exploration (via stochastic behavior policy) and exploitation (via deterministic target policy).</li>
-      <li><strong>Stochastic Policy Gradient</strong>: The same stochastic policy is used for both exploration and exploitation, making exploration dependent on the policy’s variance.</li>
-    </ul>
+  <li>
+    <p><strong>Ranking Problem</strong>: Rather than predicting exact ratings, this approach focuses on ranking items in order of relevance for a specific user. The goal is to recommend the top-k items that a user is most likely to engage with. This is known as the “top-k recommendation problem” and is more common in practice.</p>
   </li>
 </ol>
 
-<p>In summary, <strong>DPG</strong> is more efficient in high-dimensional spaces and decouples exploration and exploitation, while <strong>stochastic policy gradient</strong> methods are more straightforward but computationally heavier in large action spaces.</p>
+<h3 id="operational-and-technical-goals"><span class="me-2">Operational and Technical Goals</span><a href="#operational-and-technical-goals" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
+<p>To achieve broader business goals, recommendation systems are designed with several operational and technical goals in mind:</p>
+
+<ol>
+  <li>
+    <p><strong>Relevance</strong>: The primary goal is to recommend items that are relevant to the user. Users are more likely to engage with and enjoy content that aligns with their preferences. While relevance is crucial, it alone is not enough. Several secondary goals help enhance the system’s effectiveness.</p>
+  </li>
+  <li>
+    <p><strong>Novelty</strong>: A good recommendation system introduces users to new items they haven’t encountered before. For instance, repeatedly recommending popular items might not add much value. Instead, introducing new products or content can keep users engaged and improve their overall experience.</p>
+  </li>
+  <li>
+    <p><strong>Serendipity</strong>: Serendipity refers to the element of surprise in recommendations. It’s about suggesting items that the user didn’t expect but ends up enjoying. This goes beyond novelty because it focuses on items that aren’t just new but also outside the user’s typical preferences.</p>
+  </li>
+  <li>
+    <p><strong>Diversity</strong>: Diversity ensures that the recommendations are varied and not too similar. For example, if all recommended items are of the same type or genre, the user might get bored. A diverse set of suggestions increases the chance that the user will find something appealing.</p>
+  </li>
+</ol>
+
+<h3 id="business-centric-goals"><span class="me-2">Business-Centric Goals</span><a href="#business-centric-goals" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<ol>
+  <li>
+    <p><strong>Increase the Number of Items Sold</strong>: For commercial platforms, the main objective of a recommendation system is to increase the number of items sold. Effective recommendations can introduce users to products they might not have otherwise considered, boosting overall sales.</p>
+  </li>
+  <li>
+    <p><strong>Promote a More Diverse Range of Items</strong>: An RS can help users discover items that are less popular or harder to find. For example, a tourist RS might recommend lesser-known attractions in a region, enhancing the user’s experience by promoting hidden gems.</p>
+  </li>
+  <li>
+    <p><strong>Improve User Satisfaction</strong>: Personalized recommendations create a better user experience, making users feel understood and valued. This satisfaction translates to increased loyalty and higher engagement on the platform.</p>
+  </li>
+  <li>
+    <p><strong>Enhance User Retention</strong>: A well-designed RS encourages users to return to the platform by continually offering new and interesting suggestions based on their evolving preferences.</p>
+  </li>
+  <li>
+    <p><strong>Understand User Preferences</strong>: By analyzing user interactions, businesses gain insights into user preferences. This data can be leveraged to optimize inventory, tailor marketing strategies, and enhance overall user experience.</p>
+  </li>
+</ol>
+
+<h2 id="challenges-in-building-recommendation-systems"><span class="me-2">Challenges in Building Recommendation Systems</span><a href="#challenges-in-building-recommendation-systems" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Building an effective recommendation system isn’t straightforward. Here are some of the key challenges faced:</p>
+
+<ol>
+  <li>
+    <p><strong>Data Quality</strong>: The effectiveness of a recommendation system depends heavily on the quality of the data. Incomplete or biased data can lead to inaccurate recommendations.</p>
+  </li>
+  <li>
+    <p><strong>Scalability</strong>: As the number of users and items grows, the system must scale without compromising performance or accuracy.</p>
+  </li>
+  <li>
+    <p><strong>Balancing Multiple Goals</strong>: Finding the right balance between relevance, novelty, serendipity, and diversity can be tricky. Optimizing for one goal may negatively impact others.</p>
+  </li>
+  <li>
+    <p><strong>Cold Start Problem</strong>: When dealing with new users or new items, there is often little information available to make accurate recommendations. This is known as the cold start problem and requires specific strategies to overcome.</p>
+  </li>
+  <li>
+    <p><strong>Bias and Fairness</strong>: Ensuring that recommendations are fair and free from biases is essential, especially when the system can influence user behavior in significant ways.</p>
+  </li>
+</ol>
+
+<h2 id="why-businesses-use-recommendation-systems"><span class="me-2">Why Businesses Use Recommendation Systems</span><a href="#why-businesses-use-recommendation-systems" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Recommendation systems offer several key benefits to businesses:</p>
+
+<ol>
+  <li>
+    <p><strong>Increase Sales and Conversions</strong>: By suggesting products that align with a user’s preferences, businesses can increase sales and improve conversion rates.</p>
+  </li>
+  <li>
+    <p><strong>Promote Lesser-Known Items</strong>: RSs help users discover items they might not have found otherwise, promoting a more diverse range of products.</p>
+  </li>
+  <li>
+    <p><strong>Enhance User Experience</strong>: Personalized recommendations create a more enjoyable user experience, making it easier for users to find what they want.</p>
+  </li>
+  <li>
+    <p><strong>Build User Loyalty</strong>: Users are more likely to return to a platform that understands their preferences and provides valuable suggestions.</p>
+  </li>
+  <li>
+    <p><strong>Gain Insight into User Preferences</strong>: RSs gather data that can be used to gain deeper insights into user preferences, helping businesses make data-driven decisions.</p>
+  </li>
+</ol>
+
+<h2 id="conclusion"><span class="me-2">Conclusion</span><a href="#conclusion" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Building a recommendation system is a challenging but rewarding task. When implemented effectively, it not only helps users discover new and interesting items but also provides significant value to businesses by increasing engagement and sales. Success lies in continuously improving the system, experimenting with different approaches, and always prioritizing the user experience.</p>
+
+<p>By understanding the goals, models, and challenges of recommendation systems, we can create solutions that meet business needs while enhancing the user experience and fostering meaningful connections with users.</p>
+
+<hr />
 
   </div>
 
@@ -759,7 +873,7 @@
         <i class="far fa-folder-open fa-fw me-1"></i>
         
           <a href="/categories/machine-learning/">machine_learning</a>,
-          <a href="/categories/reinforcement-learning/">reinforcement_learning</a>
+          <a href="/categories/recommendation-system/">recommendation_system</a>
       </div>
     
 
@@ -772,6 +886,11 @@
             href="/tags/cs/"
             class="post-tag no-text-decoration"
           >cs</a>
+        
+          <a
+            href="/tags/production/"
+            class="post-tag no-text-decoration"
+          >production</a>
         
       </div>
     
@@ -807,21 +926,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=The%20differences%20between%20policies%20-%20Matt%20space&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fdifferences-among-policies%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Definition%20of%20Recommendation%20System%20-%20Matt%20space&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fdefinition-of-recommendation-system%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=The%20differences%20between%20policies%20-%20Matt%20space&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fdifferences-among-policies%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Definition%20of%20Recommendation%20System%20-%20Matt%20space&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fdefinition-of-recommendation-system%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fdifferences-among-policies%2F&text=The%20differences%20between%20policies%20-%20Matt%20space" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fdefinition-of-recommendation-system%2F&text=Definition%20of%20Recommendation%20System%20-%20Matt%20space" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -996,19 +1115,19 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -1024,7 +1143,7 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/definition-of-recommendation-system/" class="post-preview card h-100">
+          <a href="/posts/differences-among-policies/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1036,16 +1155,16 @@
 
 <time
   
-  data-ts="1728130872"
+  data-ts="1728044472"
   data-df="ll"
   
 >
-  Oct  5, 2024
+  Oct  4, 2024
 </time>
 
-              <h4 class="pt-0 my-2">Definition of Recommendation System</h4>
+              <h4 class="pt-0 my-2">The differences between policies</h4>
               <div class="text-muted">
-                <p>This post explains what recommendation systems are, their key goals and challenges, and how they help personalize user experiences and drive business growth.</p>
+                <p>Why do we need concern about which is the best policy of these task?</p>
               </div>
             </div>
           </a>
@@ -1065,19 +1184,19 @@
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="Older">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/differences-among-policies/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+      <p>The differences between policies</p>
+    </a>
   
 
   
-    <a
-      href="/posts/definition-of-recommendation-system/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>Definition of Recommendation System</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 
