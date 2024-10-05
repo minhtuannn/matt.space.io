@@ -1,6 +1,6 @@
 ---
 title: Definition of Recommendation System
-date: 2024-10-05 12:21:12 # YYYY-MM-DD HH:MM:SS +/-TTTT
+date: 2024-09-21 12:21:12 # YYYY-MM-DD HH:MM:SS +/-TTTT
 categories: [machine_learning, recommendation_system] # [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [cs, production] # [TAG]     # TAG names should always be lowercase
 description: This post explains what recommendation systems are, their key goals and challenges, and how they help personalize user experiences and drive business growth.
