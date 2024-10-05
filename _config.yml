@@ -23,19 +23,19 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: 'https://minhtuannn.github.io'
+url: "https://minhtuannn.github.io"
 
 github:
   username: minhtuannn # change to your GitHub username
 
 twitter:
-  username:  # change to your Twitter username
+  username: # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Minh Tuan - Matt
-  email:  # change to your email address
+  email: # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your Twitter homepage
@@ -150,7 +150,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: # /matt.space.io
+baseurl: /matt.space.io
 
 # ------------ The following options are not recommended to be modified ------------------
 
