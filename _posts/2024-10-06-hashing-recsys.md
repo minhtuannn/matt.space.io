@@ -1,6 +1,6 @@
 ---
 title: Efficient Handling of Sparse Data in Recommendation Systems Using Advanced Hashing Techniques
-date: 2024-09-21 12:21:12 # YYYY-MM-DD HH:MM:SS +/-TTTT
+date: 2024-09-16 12:21:12 # YYYY-MM-DD HH:MM:SS +/-TTTT
 categories: [machine_learning, recommendation_system] # [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [cs, production] # [TAG]     # TAG names should always be lowercase
 description: This post explores TikTok’s use of advanced hashing techniques to efficiently handle sparse and dynamic data in recommendation systems, reducing collisions, optimizing memory usage, and enabling real-time updates for more accurate recommendations.
